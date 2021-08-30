@@ -1,8 +1,8 @@
-<img src="https://cdn.rawgit.com/herrbischoff/awesome-osx-command-line/master/assets/logo.svg" width="600">
+<img src="https://git.herrbischoff.com/awesome-macos-command-line/plain/assets/logo.svg" width="600">
 
 # LaunchAgents
 
-> An assorted collection of useful LaunchAgent examples. Part of [Awesome OS X Command Line](https://github.com/herrbischoff/awesome-osx-command-line).
+> An assorted collection of useful LaunchAgent examples. Part of [Awesome macOS Command Line](https://git.herrbischoff.com/awesome-macos-command-line/).
 
 ## Table of Contents
 

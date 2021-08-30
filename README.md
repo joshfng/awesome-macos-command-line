@@ -1,6 +1,6 @@
-<h1><img src="https://cdn.rawgit.com/herrbischoff/awesome-macos-command-line/cab824f0/assets/logo.svg" alt="Awesome macOS Command Line" width="600"></h1>
+<h1><img src="https://git.herrbischoff.com/awesome-macos-command-line/plain/assets/logo.svg" alt="Awesome macOS Command Line" width="600"></h1>
 
-> A curated list of shell commands and tools specific to OS X.
+> A curated list of shell commands and tools specific to macOS.
 >
 > _“You don’t have to know everything. You simply need to know where to find it
 > when necessary.” (John Brunner)_
@@ -11,8 +11,7 @@ If you want to contribute, you are highly encouraged to do so. Please read the
 [contribution guidelines](contributing.md).
 
 For more terminal shell goodness, please also see this list's sister list
-[Awesome Command Line
-Apps](https://github.com/herrbischoff/awesome-command-line-apps).
+[Awesome Command Line Apps](https://git.herrbischoff.com/awesome-command-line-apps).
 
 
 ## Women Empowerment in Zanzibar
@@ -1099,7 +1098,7 @@ cd "$(osascript -e 'tell app "Finder" to POSIX path of (insertion location as al
 
 #### Open URL
 ```sh
-open https://github.com
+open https://herrbischoff.com
 ```
 
 #### Open File
@@ -1110,7 +1109,7 @@ open README.md
 #### Open Applications
 You can open applications using `-a`.
 ```sh
-open -a "Google Chrome" https://github.com
+open -a "Google Chrome" https://herrbischoff.com
 ```
 
 #### Open Folder
@@ -1486,12 +1485,12 @@ networksetup -setmanual "Ethernet" 192.168.2.100 255.255.255.0 192.168.2.1
 
 #### Ping a Host to See Whether It’s Available
 ```sh
-ping -o github.com
+ping -o herrbischoff.com
 ```
 
 #### Troubleshoot Routing Problems
 ```sh
-traceroute github.com
+traceroute herrbischoff.com
 ```
 
 ### SSH
