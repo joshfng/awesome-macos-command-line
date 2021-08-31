@@ -47,6 +47,7 @@ It also explains what the numbers in the man pages refer to --- like `man(1)`.
 ## Contents
 
 - [Appearance](#appearance)
+    - [Dark Mode](#dark-mode)
     - [Subpixel Anti-Aliasing](#subpixel-anti-aliasing-font-smoothing)
     - [Transparency](#transparency)
     - [Wallpaper](#wallpaper)
@@ -152,6 +153,20 @@ It also explains what the numbers in the man pages refer to --- like `man(1)`.
 
 
 ## Appearance
+
+### Dark Mode
+
+#### Exclude App From Dark Mode
+This is useful for older applications that run properly but haven't been 
+updated to work properly with dark mode. Change app name `Notes` to the 
+actual application you want to target.
+```sh
+# Enable
+defaults write $(osascript -e 'id of app "Notes"') NSRequiresAquaSystemAppearance -bool true
+
+# Disable (Default)
+defaults delete $(osascript -e 'id of app "Notes"') NSRequiresAquaSystemAppearance
+```
 
 ### Subpixel Anti-Aliasing (Font Smoothing)
 
