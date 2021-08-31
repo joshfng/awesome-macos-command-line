@@ -316,7 +316,7 @@ sudo chmod 0000 /Applications/iTunes.app
 #### Show Attachments as Icons
 
 ```sh
-defaults write com.apple.mail DisableInlineAttachmentViewing -bool yes
+defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
 ```
 
 #### Vacuum Mail Index
@@ -391,17 +391,17 @@ osascript -e 'tell application "Safari" to get URL of current tab of front windo
 #### Use Backspace/Delete to Go Back a Page
 ```sh
 # Enable
-defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool YES
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool true
 
 # Disable (Default)
-defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool NO
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool false
 ```
 
 ### Sketch
 
 #### Export Compact SVGs
 ```sh
-defaults write com.bohemiancoding.sketch3 exportCompactSVG -bool yes
+defaults write com.bohemiancoding.sketch3 exportCompactSVG -bool true
 ```
 
 ### Skim
@@ -416,10 +416,10 @@ defaults write -app Skim SKAutoReloadFileUpdate -boolean true
 #### Focus Follows Mouse
 ```sh
 # Enable
-defaults write com.apple.Terminal FocusFollowsMouse -string YES
+defaults write com.apple.Terminal FocusFollowsMouse -string true
 
 # Disable (Default)
-defaults write com.apple.Terminal FocusFollowsMouse -string NO
+defaults write com.apple.Terminal FocusFollowsMouse -string false
 ```
 
 ### TextEdit
@@ -632,11 +632,11 @@ killall Dock
 #### Lock the Dock Size
 ```sh
 # Enable
-defaults write com.apple.Dock size-immutable -bool yes && \
+defaults write com.apple.Dock size-immutable -bool true && \
 killall Dock
 
 # Disable (Default)
-defaults write com.apple.Dock size-immutable -bool no && \
+defaults write com.apple.Dock size-immutable -bool false && \
 killall Dock
 ```
 
@@ -1828,7 +1828,7 @@ defaults remove com.apple.NetworkBrowser DisableAirDrop
 
 # Disable (Default)
 defaults delete com.apple.NetworkBrowser BrowseAllInterfaces && \
-defaults write com.apple.NetworkBrowser DisableAirDrop -bool YES
+defaults write com.apple.NetworkBrowser DisableAirDrop -bool true
 ```
 
 ### AppleScript
@@ -2076,10 +2076,10 @@ turn this functionality off unless you are certain that no one else will be
 able to access your Mac physically when you are away.
 ```sh
 # Disable
-sudo defaults write /Library/Preferences/com.apple.RemoteManagement.plist RestoreMachineState -bool no
+sudo defaults write /Library/Preferences/com.apple.RemoteManagement.plist RestoreMachineState -bool false
 
 # Enable (Default)
-sudo defaults write /Library/Preferences/com.apple.RemoteManagement.plist RestoreMachineState -bool yes
+sudo defaults write /Library/Preferences/com.apple.RemoteManagement.plist RestoreMachineState -bool true
 ```
 
 #### Remote Apple Events
