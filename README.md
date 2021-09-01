@@ -48,6 +48,7 @@ It also explains what the numbers in the man pages refer to --- like `man(1)`.
 
 - [Appearance](#appearance)
     - [Dark Mode](#dark-mode)
+    - [Proxy Icon](#proxy-icon)
     - [Subpixel Anti-Aliasing](#subpixel-anti-aliasing-font-smoothing)
     - [Transparency](#transparency)
     - [Wallpaper](#wallpaper)
@@ -166,6 +167,19 @@ defaults write $(osascript -e 'id of app "Notes"') NSRequiresAquaSystemAppearanc
 
 # Disable (Default)
 defaults delete $(osascript -e 'id of app "Notes"') NSRequiresAquaSystemAppearance
+```
+
+### Proxy Icon
+
+#### Remove Proxy Icon Hover Delay
+In macOS 11 (Big Sur), the document proxy icon was hidden by default. This 
+restores the former always-visible state.
+```sh
+# Disable
+defaults write -g NSToolbarTitleViewRolloverDelay -float 0
+
+# Enable (Default)
+defaults delete -g NSToolbarTitleViewRolloverDelay
 ```
 
 ### Subpixel Anti-Aliasing (Font Smoothing)
