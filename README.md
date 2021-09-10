@@ -438,6 +438,11 @@ defaults write com.apple.Terminal FocusFollowsMouse -string false
 
 ### TextEdit
 
+#### Create an Untitled Document at Launch
+```sh
+defaults write com.apple.TextEdit NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false
+```
+
 #### Use Plain Text Mode as Default
 ```sh
 defaults write com.apple.TextEdit RichText -int 0
