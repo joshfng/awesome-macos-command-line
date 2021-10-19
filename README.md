@@ -2658,7 +2658,7 @@ macOS 10.12                | Sierra             | September 20, 2016 | 10.12.6 (
 macOS 10.13                | High Sierra        | September 25, 2017 | 10.13.6 (17G14042) (November 12, 2020)
 macOS 10.14                | Mojave             | September 24, 2018 | 10.14.6 (18G9323) (July 21, 2021)
 macOS 10.15                | Catalina           | October 7, 2019    | 10.15.7 (19H1323) (July 21, 2021)
-macOS 11                   | Big Sur            | November 12, 2020  | 11.5.2 (20G95) (August 11, 2021)
+macOS 11                   | Big Sur            | November 12, 2020  | 11.6 (20G165) (September 13, 2021)
 
 
 ## License
