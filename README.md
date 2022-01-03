@@ -481,11 +481,31 @@ defaults delete com.microsoft.VSCode.helper.NP CGFontRenderingFontSmoothingDisab
 
 ### Time Machine
 
+#### Activation
+```sh
+# Enable
+sudo tmutil enable
+
+# Disable
+sudo tmutil disable
+
+# Start backup immediately
+tmutil startbackup
+
+# Stop backup immediately
+tmutil stopbackup
+```
+
 #### Change Backup Interval
 This changes the interval to 30 minutes. The integer value is the time in
 seconds.
 ```sh
 sudo defaults write /System/Library/LaunchDaemons/com.apple.backupd-auto StartInterval -int 1800
+```
+
+#### Exclude Files
+```sh
+sudo tmutil addexclusion /path/to/file/or/folder
 ```
 
 #### Local Backups
@@ -506,6 +526,21 @@ Since macOS 10.13 (High Sierra), you cannot disable local snapshots. Time
 Machine now always creates a local APFS snapshot and uses that snapshot as the
 data source to create a regular backup, rather than using the live disk as the
 source, as is the case with HFS formatted disks.
+
+#### Manage Backup Volumes
+```sh
+# Info
+tmutil destinationinfo
+
+# Remove current destination
+tmutil removedestination
+
+# Set physical disk destination
+tmutil setdestination /path/to/volume/or/volume/name
+
+# Set network destination
+tmutil setdestination -p smb://10.20.30.40/share
+```
 
 #### Prevent Time Machine from Prompting to Use New Hard Drives as Backup Volume
 ```sh
@@ -546,6 +581,15 @@ sudo defaults write /Library/Preferences/com.apple.TimeMachine RequiresACPower -
 
 # Disable
 sudo defaults write /Library/Preferences/com.apple.TimeMachine RequiresACPower -bool false
+```
+
+#### Time Machine Statistics
+```sh
+# List all backups
+tmutil listbackups
+
+# Show differences
+tmutil calculatedrift /path/to/backup/folder/plus/machine/name/folder
 ```
 
 #### Verify Backup
