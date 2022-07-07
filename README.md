@@ -369,6 +369,34 @@ display dialog ("Mail index before: " & sizeBefore & return & "Mail index after:
 tell application "Mail" to activate
 ```
 
+Since the above AppleScript mainly uses shell commands anyway, here's a shell
+script version of the same functionality. It's usable from Big Sur onwards.
+Feel free to send a patch for newer systems. I currently don't have the money
+for a machine capable of running macOS 12+.
+```sh
+#!/bin/zsh
+
+#
+# Speed up Mail.app by vacuuming the Envelope Index
+# Written by Marcel Bischoff
+# AppleScript original by "pmbuko" with modifications by Romulo
+#
+
+OS_VERSION=$(sw_vers -productVersion | cut -d. -f 1)
+MAIL_RUNNING=$(ps aux | grep -v grep | grep -c "Mail\$")
+MAIL_VERSION="V2"
+
+if [ $MAIL_RUNNING -gt 0 ]; then osascript -e 'tell application "Mail" to quit'; fi
+
+if [ 1 -eq "$(echo "11 <= ${OS_VERSION}" | bc)" ]; then MAIL_VERSION="V8"; fi
+
+SIZE_BEFORE=$(ls -lnah ~/Library/Mail/${MAIL_VERSION}/MailData | grep -E 'Envelope Index$' | awk {'print $5'})
+/usr/bin/sqlite3 ~/Library/Mail/${MAIL_VERSION}/MailData/Envelope\ Index vacuum
+SIZE_AFTER=$(ls -lnah ~/Library/Mail/${MAIL_VERSION}/MailData | grep -E 'Envelope Index$' | awk {'print $5'})
+
+printf "Mail index before: %s\nMail index after: %s\n" $SIZE_BEFORE $SIZE_AFTER
+```
+
 ### Safari
 
 #### Change Default Fonts
