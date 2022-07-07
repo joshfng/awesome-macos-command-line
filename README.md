@@ -382,7 +382,7 @@ for a machine capable of running macOS 12+.
 # AppleScript original by "pmbuko" with modifications by Romulo
 #
 
-OS_VERSION=$(sw_vers -productVersion | cut -d. -f 1)
+OS_VERSION=$(sw_vers -productVersion | cut -d. -f 1,2)
 MAIL_RUNNING=$(ps aux | grep -v grep | grep -c "Mail\$")
 MAIL_VERSION="V2"
 
