@@ -14,6 +14,27 @@ For more terminal shell goodness, please also see this list's sister list
 [Awesome Command Line Apps](https://git.herrbischoff.com/awesome-command-line-apps).
 
 
+## A Personal Note
+
+Not all information contained in this list is always up-to-date with the latest
+OS releases. Apple does support devices for an extended time frame but they're
+also costly to purchase. Currently, I don't have the ability to replace my
+Mid-2014 15" MacBook Pro and it doesn't run Monterey or above. On one hand, the
+fact that this machine is still running mostly intact is a testament to its
+hardware and build quality. On the other, the fact that my older OS release
+will very soon not receive any security updates and bug fixes is a bit
+unsettling. And well, it directly affects my ability to provide timely updates.
+
+So maybe if someone from Apple reads this and can do something about that
+situation.
+
+Furthermore, looking at almost 26k GitHub stars for this repository, if only
+about 14% of the people who this resource is useful for, sponsored me with a
+*one time* amount of a single Euro, I could order a new machine that probably
+lasted me another eight years. It's not something I'd expect, nor think I
+should. It's entirely my issue. And something to think about.
+
+
 ## Foreword
 
 There's really only one thing I'd like to note here: [man
