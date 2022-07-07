@@ -2080,6 +2080,7 @@ macOS 10.13   | High Sierra   | [App Store](https://apps.apple.com/de/app/macos-
 macOS 10.14   | Mojave        | [App Store](https://apps.apple.com/de/app/macos-mojave/id1398502828)
 macOS 10.15   | Catalina      | [App Store](https://apps.apple.com/de/app/macos-catalina/id1466841314)
 macOS 11      | Big Sur       | [App Store](https://apps.apple.com/de/app/macos-big-sur/id1526878132)
+macOS 12      | Monterey      | [App Store](https://apps.apple.com/de/app/macos-monterey/id1576738294)
 
 ### Kernel Extensions
 
@@ -2731,6 +2732,8 @@ macOS 10.13                | High Sierra        | September 25, 2017 | 10.13.6 (
 macOS 10.14                | Mojave             | September 24, 2018 | 10.14.6 (18G9323) (July 21, 2021)
 macOS 10.15                | Catalina           | October 7, 2019    | 10.15.7 (19H1323) (July 21, 2021)
 macOS 11                   | Big Sur            | November 12, 2020  | 11.6 (20G165) (September 13, 2021)
+macOS 12                   | Monterey           | October 25, 2021   | 12.4 (21F79) (May 16, 2022)
+macOS 13                   | Ventura            | tba                | 13.0 beta 3 (22A5295h) (July 6, 2022)
 
 
 ## License
