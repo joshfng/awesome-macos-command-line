@@ -25,7 +25,7 @@ hardware and build quality. On the other, the fact that my older OS release
 will very soon not receive any security updates and bug fixes is a bit
 unsettling. And well, it directly affects my ability to provide timely updates.
 
-So maybe if someone from Apple reads this and can do something about that
+So maybe someone from Apple reads this and can do something about that
 situation.
 
 Furthermore, looking at almost 26k GitHub stars for this repository, if only
