@@ -34,6 +34,13 @@ about 14% of the people who this resource is useful for, sponsored me with a
 lasted me another eight years. It's not something I'd expect, nor think I
 should. It's entirely my issue. And something to think about.
 
+On top of everything, I'm currently out of a job, have little prospects and am
+going through a tough time. To help me out, the easiest way is to sponsor me
+via GitHub, either recurring or as a one-time donation. Every little bit
+helps.
+
+<https://github.com/herrbischoff>
+
 
 ## Foreword
 
