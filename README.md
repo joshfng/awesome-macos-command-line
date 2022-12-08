@@ -34,10 +34,10 @@ about 14% of the people who this resource is useful for, sponsored me with a
 lasted me another eight years. It's not something I'd expect, nor think I
 should. It's entirely my issue. And something to think about.
 
-On top of everything, I'm currently out of a job, have little prospects and am
-going through a tough time. To help me out, the easiest way is to sponsor me
-via GitHub, either recurring or as a one-time donation. Every little bit
-helps.
+On top of everything, I'm currently out of a job, have little prospects, am
+very short on money and am going through a tough time. To help me out, the
+easiest way is to sponsor me via GitHub, either recurring or as a one-time
+donation. Every little bit helps.
 
 <https://github.com/herrbischoff>
 
@@ -2746,10 +2746,10 @@ OS X 10.11                 | El Capitan         | September 30, 2015 | 10.11.6 (
 macOS 10.12                | Sierra             | September 20, 2016 | 10.12.6 (16G2136) (September 26, 2019)
 macOS 10.13                | High Sierra        | September 25, 2017 | 10.13.6 (17G14042) (November 12, 2020)
 macOS 10.14                | Mojave             | September 24, 2018 | 10.14.6 (18G9323) (July 21, 2021)
-macOS 10.15                | Catalina           | October 7, 2019    | 10.15.7 (19H1323) (July 21, 2021)
-macOS 11                   | Big Sur            | November 12, 2020  | 11.6 (20G165) (September 13, 2021)
-macOS 12                   | Monterey           | October 25, 2021   | 12.4 (21F79) (May 16, 2022)
-macOS 13                   | Ventura            | tba                | 13.0 beta 3 (22A5295h) (July 6, 2022)
+macOS 10.15                | Catalina           | October 7, 2019    | 10.15.7 (19H2026) (July 20, 2022)
+macOS 11                   | Big Sur            | November 12, 2020  | 11.7.1 (20G918) (October 24, 2022)
+macOS 12                   | Monterey           | October 25, 2021   | 12.6.1 (21G217) (October 24, 2022)
+macOS 13                   | Ventura            | October 24, 2022   | 13.0.1 (22A400) (November 9, 2022)
 
 
 ## License
