@@ -32,14 +32,21 @@ Furthermore, looking at almost 26k GitHub stars for this repository, if only
 about 14% of the people who this resource is useful for, sponsored me with a
 *one time* amount of a single Euro, I could order a new machine that probably
 lasted me another eight years. It's not something I'd expect, nor think I
-should. It's entirely my issue. And something to think about.
+should. It's entirely my issue. Still, something to think about.
 
 On top of everything, I'm currently out of a job, have little prospects, am
 very short on money and am going through a tough time. To help me out, the
 easiest way is to sponsor me via GitHub, either recurring or as a one-time
-donation. Every little bit helps.
+donation. Every little bit helps. Thank you for considering it.
 
 <https://github.com/herrbischoff>
+
+
+## Contributing
+
+You are very welcome to send me patches for changes and additions via email. If
+you are unfamiliar with the `git am` workflow, you can find an easy
+introduction to it here: <https://git-send-email.io>
 
 
 ## Foreword
