@@ -70,6 +70,7 @@ It also explains what the numbers in the man pages refer to --- like `man(1)`.
 ## Contents
 
 - [Appearance](#appearance)
+    - [Alert Dialog Style](#alert-dialog-style)
     - [Dark Mode](#dark-mode)
     - [Proxy Icon](#proxy-icon)
     - [Subpixel Anti-Aliasing](#subpixel-anti-aliasing-font-smoothing)
@@ -177,6 +178,17 @@ It also explains what the numbers in the man pages refer to --- like `man(1)`.
 
 
 ## Appearance
+
+### Alert Dialog Style
+
+#### Switch to Legacy Horizontal Layout
+```sh
+# Enable
+defaults write -g NSAlertMetricsGatheringEnabled -bool false
+
+# Disable (Default)
+defaults delete -g NSAlertMetricsGatheringEnabled
+```
 
 ### Dark Mode
 
