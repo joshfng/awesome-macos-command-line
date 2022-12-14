@@ -194,15 +194,23 @@ defaults delete $(osascript -e 'id of app "Notes"') NSRequiresAquaSystemAppearan
 
 ### Proxy Icon
 
-#### Remove Proxy Icon Hover Delay
+#### Always Show Window Proxy Icons
 In macOS 11 (Big Sur), the document proxy icon was hidden by default. This 
 restores the former always-visible state.
 ```sh
-# Disable
+# Enable
 defaults write -g NSToolbarTitleViewRolloverDelay -float 0
 
-# Enable (Default)
+# Disable (Default)
 defaults delete -g NSToolbarTitleViewRolloverDelay
+```
+Alternatively, you can set an accessibility flag.
+```sh
+# Enable
+defaults write com.apple.universalaccess showWindowTitlebarIcons -bool true
+
+# Disable (Default)
+defaults write com.apple.universalaccess showWindowTitlebarIcons -bool true
 ```
 
 ### Subpixel Anti-Aliasing (Font Smoothing)
