@@ -167,6 +167,7 @@ It also explains what the numbers in the man pages refer to --- like `man(1)`.
     - [Software Installation](#software-installation)
     - [Software Update](#software-update)
     - [Software Version](#software-version)
+    - [Spell Checking](#spell-checking)
     - [Spotlight](#spotlight)
     - [System Integrity Protection](#system-integrity-protection)
 - [Terminal](#terminal)
@@ -2370,6 +2371,17 @@ system_profiler SPSoftwareDataType
 ```
 ```sh
 defaults read loginwindow SystemVersionStampAsString
+```
+
+### Spell Checking
+
+#### Global Spell Checking
+```sh
+# Enable (Default)
+defaults delete -g NSAllowContinuousSpellChecking
+
+# Disable
+defaults write -g NSAllowContinuousSpellChecking -bool true
 ```
 
 ### Spotlight
