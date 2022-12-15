@@ -805,8 +805,14 @@ killall Dock
 #### Set Auto Show/Hide Delay
 The float number defines the show/hide delay in ms.
 ```sh
+# Hair Trigger Setting
 defaults write com.apple.dock autohide-time-modifier -float 0.4 && \
 defaults write com.apple.dock autohide-delay -float 0 && \
+killall Dock
+
+# Restore Default
+defaults delete com.apple.dock autohide-time-modifier && \
+defaults delete com.apple.dock autohide-delay && \
 killall Dock
 ```
 
