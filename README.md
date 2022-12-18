@@ -1482,10 +1482,10 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 #### Key Repeat
 Change the "press and hold" behavior.
 ```sh
-# Enable
+# Disable
 defaults write -g ApplePressAndHoldEnabled -bool false
 
-# Disable (Default)
+# Enable (Default)
 defaults write -g ApplePressAndHoldEnabled -bool true
 ```
 
