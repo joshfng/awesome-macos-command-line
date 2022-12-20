@@ -149,6 +149,7 @@ It also explains what the numbers in the man pages refer to --- like `man(1)`.
     - [Clipboard](#clipboard)
     - [Date and Time](#date-and-time)
     - [FileVault](#filevault)
+    - [iCloud](#icloud)
     - [Information/Reports](#informationreports)
     - [Installation](#installation)
     - [Kernel Extensions](#kernel-extensions)
@@ -2067,6 +2068,13 @@ sudo fdesetup enable
 
 # Disable (Default)
 sudo fdesetup disable
+```
+
+### iCloud
+
+#### Force Sign Out
+```sh
+defaults delete MobileMeAccounts
 ```
 
 ### Information/Reports
