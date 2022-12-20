@@ -2088,6 +2088,12 @@ sudo sysdiagnose -f ~/Desktop/
 
 #### Create Bootable Installer
 ```sh
+# macOS 13 (Ventura)
+sudo /Applications/Install\ macOS\ Ventura.app/Contents/Resources/createinstallmedia --volume /Volumes/USB --nointeraction --downloadassets
+
+# macOS 12 (Monterey)
+sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/USB --nointeraction --downloadassets
+
 # macOS 11 (Big Sur)
 sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/USB --nointeraction --downloadassets
 
@@ -2139,6 +2145,7 @@ macOS 10.14   | Mojave        | [App Store](https://apps.apple.com/de/app/macos-
 macOS 10.15   | Catalina      | [App Store](https://apps.apple.com/de/app/macos-catalina/id1466841314)
 macOS 11      | Big Sur       | [App Store](https://apps.apple.com/de/app/macos-big-sur/id1526878132)
 macOS 12      | Monterey      | [App Store](https://apps.apple.com/de/app/macos-monterey/id1576738294)
+macOS 13      | Ventura       | [App Store](https://apps.apple.com/de/app/macos-ventura/id1638787999)
 
 ### Kernel Extensions
 
