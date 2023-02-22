@@ -2125,6 +2125,17 @@ sudo /Applications/Install\ OS\ X\ Yosemite.app/Contents/Resources/createinstall
 
 #### Download Older OS Versions
 
+Below are direct links or App Store links to download the respective OS
+versions. To download a specific installer via terminal, you can also use
+the `softwareupdate` utility:
+
+```sh
+softwareupdate --fetch-full-installer --full-installer-version 11.3.1
+```
+
+Replace the version number with the patch level you want. If it exists, it
+should download and install itself into the Applications folder.
+
 Version       | Codename      | Download
 ------------- | ------------- | --------
 Mac OS X 10.0 | Cheetah       | n/a
