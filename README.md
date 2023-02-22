@@ -2143,9 +2143,9 @@ macOS 10.12   | Sierra        | [Direct Download](http://updates-http.cdn-apple.
 macOS 10.13   | High Sierra   | [App Store](https://apps.apple.com/de/app/macos-high-sierra/id1246284741)
 macOS 10.14   | Mojave        | [App Store](https://apps.apple.com/de/app/macos-mojave/id1398502828)
 macOS 10.15   | Catalina      | [App Store](https://apps.apple.com/de/app/macos-catalina/id1466841314)
-macOS 11      | Big Sur       | [App Store](https://apps.apple.com/de/app/macos-big-sur/id1526878132)
-macOS 12      | Monterey      | [App Store](https://apps.apple.com/de/app/macos-monterey/id1576738294)
-macOS 13      | Ventura       | [App Store](https://apps.apple.com/de/app/macos-ventura/id1638787999)
+macOS 11      | Big Sur       | [Direct Download](https://swcdn.apple.com/content/downloads/26/54/032-50519-A_CXUH67MIZN/z1mbjod7nna0yhubto3a7pyq1gilhin6fw/InstallAssistant.pkg), [App Store](https://apps.apple.com/de/app/macos-big-sur/id1526878132)
+macOS 12      | Monterey      | [Direct Download](https://swcdn.apple.com/content/downloads/17/14/032-33828-A_KX25OQBX8S/lz9yip4rmenyju8nkv4wpaqtdmvzfogkcb/InstallAssistant.pkg), [App Store](https://apps.apple.com/de/app/macos-monterey/id1576738294)
+macOS 13      | Ventura       | [Direct Download](https://swcdn.apple.com/content/downloads/26/15/032-48342-A_OG2YEE7OSX/8sd3qpy79cimb7cjiy47cytps0gm7m0z5l/InstallAssistant.pkg), [App Store](https://apps.apple.com/de/app/macos-ventura/id1638787999)
 
 ### Kernel Extensions
 
