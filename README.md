@@ -2157,6 +2157,7 @@ macOS 10.15   | Catalina      | [App Store](https://apps.apple.com/de/app/macos-
 macOS 11      | Big Sur       | [Direct Download](https://swcdn.apple.com/content/downloads/26/54/032-50519-A_CXUH67MIZN/z1mbjod7nna0yhubto3a7pyq1gilhin6fw/InstallAssistant.pkg), [App Store](https://apps.apple.com/de/app/macos-big-sur/id1526878132)
 macOS 12      | Monterey      | [Direct Download](https://swcdn.apple.com/content/downloads/17/14/032-33828-A_KX25OQBX8S/lz9yip4rmenyju8nkv4wpaqtdmvzfogkcb/InstallAssistant.pkg), [App Store](https://apps.apple.com/de/app/macos-monterey/id1576738294)
 macOS 13      | Ventura       | [Direct Download](https://swcdn.apple.com/content/downloads/26/15/032-48342-A_OG2YEE7OSX/8sd3qpy79cimb7cjiy47cytps0gm7m0z5l/InstallAssistant.pkg), [App Store](https://apps.apple.com/de/app/macos-ventura/id1638787999)
+macOS 14      | Sonoma        | [Direct Download](https://swcdn.apple.com/content/downloads/26/09/042-58988-A_114Q05ZS90/yudaal746aeavnzu5qdhk26uhlphm3r79u/InstallAssistant.pkg), [App Store](https://apps.apple.com/de/app/macos-sonoma/id6450717509)
 
 ### Kernel Extensions
 
@@ -2818,10 +2819,10 @@ macOS 10.12                | Sierra             | September 20, 2016 | 10.12.6 (
 macOS 10.13                | High Sierra        | September 25, 2017 | 10.13.6 (17G14042) (November 12, 2020)
 macOS 10.14                | Mojave             | September 24, 2018 | 10.14.6 (18G9323) (July 21, 2021)
 macOS 10.15                | Catalina           | October 7, 2019    | 10.15.7 (19H2026) (July 20, 2022)
-macOS 11                   | Big Sur            | November 12, 2020  | 11.7.1 (20G918) (October 24, 2022)
-macOS 12                   | Monterey           | October 25, 2021   | 12.6.1 (21G217) (October 24, 2022)
-macOS 13                   | Ventura            | October 24, 2022   | 13.0.1 (22A400) (November 9, 2022)
-
+macOS 11                   | Big Sur            | November 12, 2020  | 11.7.10 (20G1427) (September 11, 2023)
+macOS 12                   | Monterey           | October 25, 2021   | 12.7 (21G816) (September 21, 2023)
+macOS 13                   | Ventura            | October 24, 2022   | 13.6 (22G120) (September 21, 2023)
+macOS 14                   | Sonoma             | September 26, 2023 | 14.0 (23A344) (September 26, 2023)
 
 ## License
 
