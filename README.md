@@ -2157,7 +2157,7 @@ macOS 10.15   | Catalina      | [App Store](https://apps.apple.com/de/app/macos-
 macOS 11      | Big Sur       | [Direct Download](https://swcdn.apple.com/content/downloads/26/54/032-50519-A_CXUH67MIZN/z1mbjod7nna0yhubto3a7pyq1gilhin6fw/InstallAssistant.pkg), [App Store](https://apps.apple.com/de/app/macos-big-sur/id1526878132)
 macOS 12      | Monterey      | [Direct Download](https://swcdn.apple.com/content/downloads/17/14/032-33828-A_KX25OQBX8S/lz9yip4rmenyju8nkv4wpaqtdmvzfogkcb/InstallAssistant.pkg), [App Store](https://apps.apple.com/de/app/macos-monterey/id1576738294)
 macOS 13      | Ventura       | [Direct Download](https://swcdn.apple.com/content/downloads/26/15/032-48342-A_OG2YEE7OSX/8sd3qpy79cimb7cjiy47cytps0gm7m0z5l/InstallAssistant.pkg), [App Store](https://apps.apple.com/de/app/macos-ventura/id1638787999)
-macOS 14      | Sonoma        | [Direct Download](https://swcdn.apple.com/content/downloads/26/09/042-58988-A_114Q05ZS90/yudaal746aeavnzu5qdhk26uhlphm3r79u/InstallAssistant.pkg), [App Store](https://apps.apple.com/de/app/macos-sonoma/id6450717509)
+macOS 14      | Sonoma        | [Direct Download](https://swcdn.apple.com/content/downloads/26/09/042-58988-A_114Q05ZS90/yudaal746aeavnzu5qdhk26uhlphm3r79u/InstallAssistant.pkg), [App Store](https://apps.apple.com/de/app/macos-sonoma/id6450717509), [IPSW](https://updates.cdn-apple.com/2023FallFCS/fullrestores/042-54934/0E101AD6-3117-4B63-9BF1-143B6DB9270A/UniversalMac_14.0_23A344_Restore.ipsw)
 
 ### Kernel Extensions
 
