@@ -817,6 +817,13 @@ defaults delete com.apple.dock autohide-delay && \
 killall Dock
 ```
 
+#### Permanently Hide
+The dock cannot be disabled or permanently hidden. You can set an extreme delay, however.
+```sh
+defaults write com.apple.dock autohide-delay -float 1000 && \
+killall Dock
+```
+
 #### Show Hidden App Icons
 ```sh
 # Enable
